@@ -17,7 +17,7 @@ body{
 .logo{
     margin-top: 1%;
     margin-left: 2%;
-    width: 240px;
+    width: 30vh;
 }
 .display{
     width: 100%;
@@ -28,7 +28,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 4px;
+    padding: 20px 20px;
     border-radius: 5px;
 }
 .container h1{
