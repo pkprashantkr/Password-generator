@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #18272b;
+    color: #fff;
+}
+.container{
+    margin: 35px;
+    width: 90%;
+    min-height: 100vh;
+    max-width: 700px;
+}
+.logo{
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 240px;
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 4px;
+    border-radius: 5px;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.container i{
+    padding-bottom: 7px;
+    border-bottom: 4px dotted #d45806;
+}
+
+.container h1 span{
+    color: #d45806;
+    border-bottom: 4px solid #d45806;
+    padding-bottom: 7px;
+}
+
+.display img{
+    width: 20px;
+    cursor: pointer;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+.container button img{
+    width: 28px;
+    margin-right: 10px;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    background: #d45806;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+#btn:hover{
+    background: #9e4002;
+
+}
